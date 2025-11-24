@@ -6,6 +6,8 @@ A modular deep learning pipeline for **weather-aware scene text recognition (STR
 
 The system dynamically classifies weather using **CLIP**, detects text using **CRAFT**, and recognizes text using **PARSeq** models **fine-tuned per weather condition**.
 
+find the pretrained and finetuned weights and custom prepared synthetic dataset drawn form RoadText1k dataset in this [gdrive](https://drive.google.com/drive/folders/19hWO835MM6Lw2uaC3bPPqpfcjVihhiXa?usp=drive_link)
+
 ---
 
 ## Repository Structure
