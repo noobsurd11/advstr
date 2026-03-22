@@ -1,0 +1,17 @@
+data:
+  train_dir: /home/rs_students/advstr/dataset/ohaze # expects subfolders: clear/ and hazy/ with matching filenames
+  val_dir:   /home/rs_students/advstr/dataset/ohaze    # optional
+train:
+  epochs: 11
+  batch_size: 1
+  lr: !!float 1e-4
+  save_every: 5
+model:
+  alpha: 0.1
+  beta_init: 0.5
+loss:
+  perceptual_w: 0.04
+  dark_w: 0.1
+log:
+  out_dir: ./checkpoints
+device: cuda

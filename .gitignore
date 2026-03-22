@@ -1,0 +1,41 @@
+# Datasets
+dataset/
+**/data/
+**/data_root_dir/
+
+# Model weights & checkpoints
+*.pth
+*.pt
+*.pkl
+*.bin
+*.h5
+*.hdf5
+*.ckpt
+*.ckpt.log.txt
+**/model/
+**/pretrained_model/
+**/checkpoints/
+**/exp/
+
+# Training artifacts
+*.zip
+events.out.tfevents.*
+hparams.yaml
+*.log
+
+# Output & results
+outputs/
+results/
+**/result/
+**/fog_output/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+
+# Misc
+*.tmp
+.DS_Store

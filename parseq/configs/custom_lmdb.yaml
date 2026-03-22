@@ -1,0 +1,14 @@
+# Custom LMDB dataset for PARSeq fine-tuning
+_target_: strhub.data.dataset.LmdbDataModule
+
+root_dir: ${oc.env:DATA_ROOT}/lmdb_rainy
+
+train: train
+val: val
+test: test
+
+batch_size: 32
+num_workers: 4
+
+# optional augmentations
+augment: true

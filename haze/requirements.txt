@@ -1,0 +1,8 @@
+torch>=1.13
+torchvision
+tqdm
+opencv-python
+Pillow
+scikit-image
+numpy
+yaml
